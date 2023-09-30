@@ -1,1 +1,7 @@
+.envrc
+
+# Nix stuff
+.direnv/
+result
+
 *~
