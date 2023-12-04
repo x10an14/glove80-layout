@@ -5,11 +5,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1694529238,
-        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "lastModified": 1701680307,
+        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
         "type": "github"
       },
       "original": {
@@ -21,39 +21,23 @@
     "moergo-zmk": {
       "flake": false,
       "locked": {
-        "lastModified": 1694060775,
-        "narHash": "sha256-wDjQxwkgEJJxxja6UqKdzpyy7YA1EByReKFvm/7Vvdo=",
+        "lastModified": 1699073087,
+        "narHash": "sha256-cAHgBInaKgNMeu4cVEeYrUTuJ0K4bAN2gzEvUW2cI+s=",
         "owner": "moergo-sc",
         "repo": "zmk",
-        "rev": "279bc25747f038d7110c99d1903f2a8f482148b4",
+        "rev": "b96441aea39f61758c2a9d2f0e4fbcdce18d7954",
         "type": "github"
       },
       "original": {
         "owner": "moergo-sc",
         "repo": "zmk",
-        "type": "github"
-      }
-    },
-    "nixpkgs": {
-      "locked": {
-        "lastModified": 1696022471,
-        "narHash": "sha256-3U5nqHQ9JFUoY4GJ89ErqzRmkgAhPYjbPn4vP+CpltM=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "336d12bc4cdb0980f5ff450d7bc599bdb4ed5e74",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "repo": "nixpkgs",
         "type": "github"
       }
     },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "moergo-zmk": "moergo-zmk",
-        "nixpkgs": "nixpkgs"
+        "moergo-zmk": "moergo-zmk"
       }
     },
     "systems": {
