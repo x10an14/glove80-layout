@@ -34,10 +34,26 @@
         "type": "github"
       }
     },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1701769580,
+        "narHash": "sha256-rBx3jlefaKYWvMU+nrbK0Ujzp1ebX4+PJwyks8CfKC0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "3b03119bcf3336b1e0fb07f781da85ed84ae2db5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "moergo-zmk": "moergo-zmk"
+        "moergo-zmk": "moergo-zmk",
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {

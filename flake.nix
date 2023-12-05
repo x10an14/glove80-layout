@@ -1,6 +1,7 @@
 {
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:nixos/nixpkgs";
     moergo-zmk = {
       url = "github:moergo-sc/zmk";
       flake = false;
@@ -16,6 +17,8 @@
         };
       in
         import nixpkgs {localSystem = {inherit system;};};
+      nixpkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
+
       firmware = import inputs.moergo-zmk {inherit pkgs;};
 
       config = {
@@ -28,6 +31,7 @@
       glove80Firmware = firmware.combine_uf2 glove80_left glove80_right;
     in {
       devShell = pkgs.mkShell {
+        packages = with nixpkgs; [nix-output-monitor];
         # Add used tooling to build firmware to devShell so as to enable manual building
         inputsFrom = [glove80Firmware];
       };
