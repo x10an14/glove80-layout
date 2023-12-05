@@ -62,6 +62,7 @@
     };
 };
 
+
 / {
 #ifdef BT_DISC_CMD
     behaviors {
@@ -527,7 +528,7 @@ behaviors {
         #binding-cells = <2>;
         bindings = <&mo>, <&kp>;
     };
-    space: miryoku_thumb_layer_spacebar {
+    space: miryoku_thumb_layer_spacebar {  // TODO: Figure out usage of?
         compatible = "zmk,behavior-hold-tap";
         label = "MIRYOKU_THUMB_LAYER_SPACEBAR";
         flavor = THUMB_HOLDING_TYPE;
@@ -983,12 +984,12 @@ macros {
 
         layer_Engrammer_NO {
             bindings = <
-                &kp F1                   &kp F2                              &kp F3              &kp F4                &kp F5                                                                                                           &kp F6               &kp F7               &kp F8               &kp F9    &kp F10
-                &magic LAYER_Magic 0     &none                               &x10_brackang_left  &kp W          &x10_pluqals  &x10_parcurl_left                                                             &x10_parcurl_right    &x10_brackang_right                &kp H                &kp Q                &none  &kp PSCRN
-                &kp TAB                  &kp SEMI                            &homey_left RALT Y  &kp O                 &kp U  &x10_question                                                             &x10_backslash                  &kp L                &kp D  &homey_right RALT &norwegian_ae                &kp V   &kp SLCK
-                &kp ESC                  &homey_left LGUI &norwegian_a_ring  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &x10_commcoln                                                              &x10_pericoln  &shift_right RSHIFT R  &homey_right RCTRL T  &homey_right LALT N  &homey_right RGUI S                  &none
-                &kp PG_UP                &kp B               &kp X                &kp J                 &kp K    &x10_quotes  &kp BSPC  &kp HOME   &lower  &kp SYSREQ  &kp END  &kp DEL  &x10_minuscore                  &kp F                &kp M                &kp C                &kp G     &x10_cappy
-                &kp PG_DN                &kp Z        &x10_cargree                &none         &x10_pipetion                   &kp SPACE     &none  &kp INS   &kp K_APP    &none  &kp RET                          &x10_hashilde                &none  &world_quotes_grave                &kp P      &none
+               &kp F1                              &kp F2              &kp F3               &kp F4                &kp F5                                                                                                                    &kp F6                &kp F7                           &kp F8               &kp F9     &kp F10
+ &magic LAYER_Magic 0                               &none  &x10_brackang_left                &kp W          &x10_pluqals  &x10_parcurl_left                                                              &x10_parcurl_right    &x10_brackang_right                 &kp H                            &kp Q                &none   &kp PSCRN
+              &kp TAB                            &kp SEMI  &homey_left RALT Y                &kp O                 &kp U      &x10_question                                                                  &x10_backslash                  &kp L                 &kp D  &homey_right RALT &norwegian_ae                &kp V    &kp SLCK
+              &kp ESC  &homey_left LGUI &norwegian_a_ring  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A      &x10_commcoln                                                                   &x10_pericoln  &shift_right RSHIFT R  &homey_right RCTRL T              &homey_right LALT N  &homey_right RGUI S       &none
+            &kp PG_UP                               &kp B               &kp X                &kp J                 &kp K        &x10_quotes   &kp BSPC  &kp HOME   &lower  &kp SYSREQ  &kp END  &kp DEL      &x10_minuscore                  &kp F                 &kp M                            &kp C                &kp G  &x10_cappy
+            &kp PG_DN                               &kp Z        &x10_cargree                &none         &x10_pipetion                     &kp SPACE     &none  &kp INS   &kp K_APP    &none  &kp RET                              &x10_hashilde                 &none              &world_quotes_grave                &kp P       &none
             >;
         };
 
@@ -1005,12 +1006,12 @@ macros {
 
         layer_Magic {
             bindings = <
-    &bt BT_CLR      &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &bt BT_CLR_ALL
-    &none           &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none           &none
-    &none           &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                               &none   &none   &none   &none   &none           &none
-    &bootloader     &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                               &none   &none   &none   &none   &none     &bootloader
-    &sys_reset      &none            &none            &none            &none            &none   &bt_2   &bt_3  &none          &none   &none   &none   &none   &none   &none   &none   &none      &sys_reset
-    &none           &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none           &none
+  &bt BT_CLR            &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &bt BT_CLR_ALL
+       &none            &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none           &none
+       &none  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                         &none   &none   &none   &none   &none           &none
+ &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                         &none   &none   &none   &none   &none     &bootloader
+  &sys_reset            &none            &none            &none            &none            &none   &bt_2   &bt_3         &none   &none   &none   &none   &none   &none   &none   &none   &none      &sys_reset
+       &none            &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none           &none
             >;
         };
 
