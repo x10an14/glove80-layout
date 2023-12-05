@@ -10,31 +10,34 @@
 
   outputs = {self, ...} @ inputs:
     inputs.flake-utils.lib.eachDefaultSystem (system: let
-      pkgs = let
+      ###   ZMK / Glove80 firmware stuff:
+      moergo = let
         moergoPin = builtins.fromJSON (builtins.readFile "${inputs.moergo-zmk}/nix/pinned-nixpkgs.json");
-        nixpkgs = builtins.fetchTarball {
+        moergoNixpkgs = builtins.fetchTarball {
           inherit (moergoPin) url sha256;
         };
+        pkgs = import moergoNixpkgs {localSystem = {inherit system;};};
       in
-        import nixpkgs {localSystem = {inherit system;};};
-      nixpkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
-
-      firmware = import inputs.moergo-zmk {inherit pkgs;};
+        import inputs.moergo-zmk {inherit pkgs;};
 
       config = {
         keymap = "${self}/config/glove80.keymap";
         kconfig = "${self}/config/glove80.conf";
       };
+      glove80Firmware =
+        moergo.combine_uf2
+        (moergo.zmk.override config // {board = "glove80_lh";})
+        (moergo.zmk.override config // {board = "glove80_rh";});
 
-      glove80_left = firmware.zmk.override config // {board = "glove80_lh";};
-      glove80_right = firmware.zmk.override config // {board = "glove80_rh";};
-      glove80Firmware = firmware.combine_uf2 glove80_left glove80_right;
+      ###   ZMK / Glove80 independent stuff:
+      pkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
     in {
       devShell = pkgs.mkShell {
-        packages = with nixpkgs; [nix-output-monitor];
+        packages = with pkgs; [nix-output-monitor];
         # Add used tooling to build firmware to devShell so as to enable manual building
         inputsFrom = [glove80Firmware];
       };
+
       packages = {
         inherit glove80Firmware;
         default = glove80Firmware;
