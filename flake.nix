@@ -33,9 +33,15 @@
       pkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
     in {
       devShell = pkgs.mkShell {
-        packages = with pkgs; [nix-output-monitor];
+        packages = with pkgs; [
+          nix-output-monitor
+          (python3.withPackages (pyPackage: with pyPackage; [pipx]))
+        ];
         # Add used tooling to build firmware to devShell so as to enable manual building
         inputsFrom = [glove80Firmware];
+        shellHook = ''
+          export PATH="$PATH:$HOME/.local/bin"
+        '';
       };
 
       packages = {
