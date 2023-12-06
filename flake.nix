@@ -12,7 +12,9 @@
     inputs.flake-utils.lib.eachDefaultSystem (system: let
       ###   ZMK / Glove80 firmware stuff:
       moergo = let
-        moergoPin = builtins.fromJSON (builtins.readFile "${inputs.moergo-zmk}/nix/pinned-nixpkgs.json");
+        moergoPin = builtins.fromJSON (
+          builtins.readFile "${inputs.moergo-zmk}/nix/pinned-nixpkgs.json"
+        );
         moergoNixpkgs = builtins.fetchTarball {
           inherit (moergoPin) url sha256;
         };
