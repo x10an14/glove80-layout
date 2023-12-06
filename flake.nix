@@ -33,7 +33,15 @@
       pkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
     in {
       devShell = pkgs.mkShell {
-        packages = with pkgs; [nix-output-monitor];
+        shellHook = ''
+          ${pkgs.deadnix}/bin/deadnix --fail --hidden &&
+            echo -e "\n\tThere's no dead nix code in your codebase, yay!\n"
+          ${pkgs.statix}/bin/statix check .
+        '';
+        packages = with pkgs; [
+          nix-output-monitor
+          alejandra
+        ];
         # Add used tooling to build firmware to devShell so as to enable manual building
         inputsFrom = [glove80Firmware];
       };
