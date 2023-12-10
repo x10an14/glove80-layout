@@ -1,1 +1,1642 @@
-{"keyboard":"glove80","keymap":"default","layout":"LAYOUT","layer_names":["base","fn"],"layers":[[{"value":"&kp","params":[{"value":"F1","params":[]}]},{"value":"&kp","params":[{"value":"F2","params":[]}]},{"value":"&kp","params":[{"value":"F3","params":[]}]},{"value":"&kp","params":[{"value":"F4","params":[]}]},{"value":"&kp","params":[{"value":"F5","params":[]}]},{"value":"&kp","params":[{"value":"F6","params":[]}]},{"value":"&kp","params":[{"value":"F7","params":[]}]},{"value":"&kp","params":[{"value":"F8","params":[]}]},{"value":"&kp","params":[{"value":"F9","params":[]}]},{"value":"&kp","params":[{"value":"F10","params":[]}]},{"value":"&kp","params":[{"value":"EQUAL","params":[]}]},{"value":"&kp","params":[{"value":"N1","params":[]}]},{"value":"&kp","params":[{"value":"N2","params":[]}]},{"value":"&kp","params":[{"value":"N3","params":[]}]},{"value":"&kp","params":[{"value":"N4","params":[]}]},{"value":"&kp","params":[{"value":"N5","params":[]}]},{"value":"&kp","params":[{"value":"N6","params":[]}]},{"value":"&kp","params":[{"value":"N7","params":[]}]},{"value":"&kp","params":[{"value":"N8","params":[]}]},{"value":"&kp","params":[{"value":"N9","params":[]}]},{"value":"&kp","params":[{"value":"N0","params":[]}]},{"value":"&kp","params":[{"value":"MINUS","params":[]}]},{"value":"&kp","params":[{"value":"TAB","params":[]}]},{"value":"&kp","params":[{"value":"Q","params":[]}]},{"value":"&kp","params":[{"value":"W","params":[]}]},{"value":"&kp","params":[{"value":"E","params":[]}]},{"value":"&kp","params":[{"value":"R","params":[]}]},{"value":"&kp","params":[{"value":"T","params":[]}]},{"value":"&kp","params":[{"value":"Y","params":[]}]},{"value":"&kp","params":[{"value":"U","params":[]}]},{"value":"&kp","params":[{"value":"I","params":[]}]},{"value":"&kp","params":[{"value":"O","params":[]}]},{"value":"&kp","params":[{"value":"P","params":[]}]},{"value":"&kp","params":[{"value":"BSLH","params":[]}]},{"value":"&kp","params":[{"value":"ESC","params":[]}]},{"value":"&kp","params":[{"value":"A","params":[]}]},{"value":"&kp","params":[{"value":"S","params":[]}]},{"value":"&kp","params":[{"value":"D","params":[]}]},{"value":"&kp","params":[{"value":"F","params":[]}]},{"value":"&kp","params":[{"value":"G","params":[]}]},{"value":"&kp","params":[{"value":"H","params":[]}]},{"value":"&kp","params":[{"value":"J","params":[]}]},{"value":"&kp","params":[{"value":"K","params":[]}]},{"value":"&kp","params":[{"value":"L","params":[]}]},{"value":"&kp","params":[{"value":"SEMI","params":[]}]},{"value":"&kp","params":[{"value":"SQT","params":[]}]},{"value":"&kp","params":[{"value":"GRAVE","params":[]}]},{"value":"&kp","params":[{"value":"Z","params":[]}]},{"value":"&kp","params":[{"value":"X","params":[]}]},{"value":"&kp","params":[{"value":"C","params":[]}]},{"value":"&kp","params":[{"value":"V","params":[]}]},{"value":"&kp","params":[{"value":"B","params":[]}]},{"value":"&kp","params":[{"value":"LSHFT","params":[]}]},{"value":"&kp","params":[{"value":"LCTRL","params":[]}]},{"value":"&mo","params":[{"value":"1","params":[]}]},{"value":"&kp","params":[{"value":"LGUI","params":[]}]},{"value":"&kp","params":[{"value":"RCTRL","params":[]}]},{"value":"&kp","params":[{"value":"RSHFT","params":[]}]},{"value":"&kp","params":[{"value":"N","params":[]}]},{"value":"&kp","params":[{"value":"M","params":[]}]},{"value":"&kp","params":[{"value":"COMMA","params":[]}]},{"value":"&kp","params":[{"value":"DOT","params":[]}]},{"value":"&kp","params":[{"value":"FSLH","params":[]}]},{"value":"&kp","params":[{"value":"PG_UP","params":[]}]},{"value":"&mo","params":[{"value":"1","params":[]}]},{"value":"&kp","params":[{"value":"HOME","params":[]}]},{"value":"&kp","params":[{"value":"END","params":[]}]},{"value":"&kp","params":[{"value":"LEFT","params":[]}]},{"value":"&kp","params":[{"value":"RIGHT","params":[]}]},{"value":"&kp","params":[{"value":"BSPC","params":[]}]},{"value":"&kp","params":[{"value":"DEL","params":[]}]},{"value":"&kp","params":[{"value":"LALT","params":[]}]},{"value":"&kp","params":[{"value":"RALT","params":[]}]},{"value":"&kp","params":[{"value":"RET","params":[]}]},{"value":"&kp","params":[{"value":"SPACE","params":[]}]},{"value":"&kp","params":[{"value":"UP","params":[]}]},{"value":"&kp","params":[{"value":"DOWN","params":[]}]},{"value":"&kp","params":[{"value":"LBKT","params":[]}]},{"value":"&kp","params":[{"value":"RBKT","params":[]}]},{"value":"&kp","params":[{"value":"PG_DN","params":[]}]}],[{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"0","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"1","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"2","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"3","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"4","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"F11","params":[]}]},{"value":"&kp","params":[{"value":"F12","params":[]}]},{"value":"&bt","params":[{"value":"BT_CLR","params":[]}]},{"value":"&none","params":[]},{"value":"&out","params":[{"value":"OUT_USB","params":[]}]},{"value":"&out","params":[{"value":"OUT_BLE","params":[]}]},{"value":"&out","params":[{"value":"OUT_TOG","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&bootloader","params":[]},{"value":"&rgb_ug","params":[{"value":"RGB_TOG","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_EFF","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_BRI","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_BRD","params":[]}]},{"value":"&kp","params":[{"value":"K_VOL_UP","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&reset","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"K_VOL_DN","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&ext_power","params":[{"value":"EP_ON","params":[]}]},{"value":"&ext_power","params":[{"value":"EP_OFF","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"K_MUTE","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"CAPS","params":[]}]},{"value":"&kp","params":[{"value":"INS","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]}]]}
+{
+  "keyboard": "glove80",
+  "uuid": "",
+  "date": 1702169767,
+  "creator": "",
+  "parent_uuid": "a0ad2f79-31c0-4094-872b-1919d412d8b0",
+  "firmware_api_version": "1",
+  "locale": "nb-NO",
+  "title": "x10's layout",
+  "notes": "",
+  "tags": [
+    "linux",
+    "norwegian",
+    "engrammer",
+    "vim",
+    "typing",
+    "gaming",
+    "miryoku"
+  ],
+  "unlisted": false,
+  "layer_names": [
+    "Engrammer_NO",
+    "Lower",
+    "Magic"
+  ],
+  "layers": [
+    [
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RBKT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_twoalpha",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_fourdollar",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PSCRN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "TAB",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "B",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_left RALT Y",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "O",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "U",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_doubledots",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "MINUS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "L",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "D",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_right RALT W",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "V",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "ESC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_left LGUI H",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_left LALT I",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_left LCTRL E",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&shift_left LSHIFT A",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_commthan",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_perthan",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&shift_right RSHIFT R",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_right RCTRL T",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_right LALT N",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&homey_right RGUI S",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_cappy",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "P",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "X",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "J",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_quotes",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "BSPC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "INS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&lower",
+        "params": []
+      },
+      {
+        "value": "&lower",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K_APP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DEL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "FSLH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "M",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "G",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&magic",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Z",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&grave_quotes",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_bracurl_left",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RET",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "HOME",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "END",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RET",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_bracurl_right",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&x10_pishas",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Q",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&magic",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_BRI_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_BRI_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_PREV",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_NEXT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_PP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_MUTE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_VOL_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_VOL_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_MUTE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PAUSE_BREAK",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "UP_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "END",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LEFT_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOWN_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RIGHT_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PERCENT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&to",
+        "params": [
+          {
+            "value": 0,
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "COMMA",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_N2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "INS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&bt",
+        "params": [
+          {
+            "value": "BT_CLR",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt",
+        "params": [
+          {
+            "value": "BT_CLR_ALL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SPI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SAI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_HUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_BRI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_TOG",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bootloader",
+        "params": []
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SPD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SAD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_HUD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_BRD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_EFF",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bootloader",
+        "params": []
+      },
+      {
+        "value": "&reset",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt_2",
+        "params": []
+      },
+      {
+        "value": "&bt_3",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&reset",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt_0",
+        "params": []
+      },
+      {
+        "value": "&bt_1",
+        "params": []
+      },
+      {
+        "value": "&out",
+        "params": [
+          {
+            "value": "OUT_USB",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      }
+    ]
+  ],
+  "custom_defined_behaviors": "//////////////////////////////////////////////////////////////////////\n// NOTE: Use the `#define` settings below to customize this keymap! //\n//////////////////////////////////////////////////////////////////////\n// IMPORTANT: You need to set Firmware Version to \"pr19.zephyr-3-2\" //\n// under Settings > Advanced Settings in the Glove80 Layout Editor  //\n// if you want to use the `hold-trigger-on-release` feature in ZMK. //\n//////////////////////////////////////////////////////////////////////\n// CAUTION: PR19 firmware is not production quality; it has issues: //\n// https://discord.com/channels/877392805654306816/1137025078979203142\n//////////////////////////////////////////////////////////////////////\n//\n// Sunaku's Keymap v23 featuring Engrammer layout and legendary Miryoku\n// - https://github.com/sunaku/glove80-keymaps\n// - https://sunaku.github.io/moergo-glove80-keyboard.html\n// - https://sunaku.github.io/engrammer-keyboard-layout.html\n// - https://discord.com/channels/877392805654306816/1111469812850380831\n//\n//////////////////////////////////////////////////////////////////////\n\nbehaviors {\n\n    // Miryoku layers and home row mods (ported from my QMK endgame)\n    // - https://sunaku.github.io/home-row-mods.html#porting-to-zmk\n    // - https://github.com/urob/zmk-config#timeless-homerow-mods\n\n    //----------------------------------------------------------------\n    //               homey fingers (pinky, ring, middle)\n    //----------------------------------------------------------------\n    //\n    // HOMEY_HOLDING_TYPE defines the flavor of ZMK hold-tap behavior to use\n    // for the pinky, ring, and middle fingers (which are assigned to Super,\n    // Alt, and Ctrl respectively in the Miryoku system) on home row keys.\n    //\n    #ifndef HOMEY_HOLDING_TYPE\n    #define HOMEY_HOLDING_TYPE \"tap-preferred\"\n    #endif\n\n    // HOMEY_HOLDING_TIME defines how long you need to hold (milliseconds)\n    // home row mod keys in order to send their modifiers to the computer\n    // (i.e. \"register\" them) for mod-click mouse usage (e.g. Ctrl-Click).\n    //\n    #ifndef HOMEY_HOLDING_TIME\n    #define HOMEY_HOLDING_TIME 270 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER\n    #endif\n\n    // HOMEY_STREAK_DECAY defines how long you need to wait (milliseconds)\n    // after typing before you can use home row mods again.  It prevents\n    // unintended activation of home row mods when you're actively typing.\n    //\n    #ifndef HOMEY_STREAK_DECAY\n    #define HOMEY_STREAK_DECAY 170 // global-quick-tap-ms\n    #endif\n\n    // HOMEY_REPEAT_DECAY defines how much time you have left (milliseconds)\n    // after tapping a key to hold it again in order to make it auto-repeat.\n    //\n    #ifndef HOMEY_REPEAT_DECAY\n    #define HOMEY_REPEAT_DECAY 300 // \"tap then hold\" for key auto-repeat\n    #endif\n\n    //----------------------------------------------------------------\n    //                          index fingers\n    //----------------------------------------------------------------\n    //\n    // SHIFT_HOLDING_TYPE defines the flavor of ZMK hold-tap behavior to use\n    // for index fingers (which Miryoku assigns to Shift) on home row keys.\n    //\n    // NOTE: The \"tap-preferred\" flavor of ZMK hold-tap for index finger keys\n    // allows faster activation of the Shift modifier (without having to wait\n    // for the modified key to be released as the \"balanced\" flavor requires).\n    // Typing streaks and the `hold-trigger-on-release` setting are disabled\n    // for the index fingers so as not to hinder their speed and dexterity.\n    //\n    #ifndef SHIFT_HOLDING_TYPE\n    #define SHIFT_HOLDING_TYPE \"tap-preferred\"\n    #endif\n\n    // SHIFT_HOLDING_TIME defines how long you need to hold (milliseconds)\n    // index finger keys in order to send their modifiers to the computer\n    // (i.e. \"register\" them) for mod-click mouse usage (e.g. Shift-Click).\n    //\n    // CAUTION: You'll need to perform inward rolls from pinky->ring->middle\n    // fingers toward the index fingers when activating multiple modifiers\n    // because `hold-trigger-on-release` is disabled for the index fingers.\n    // Otherwise, you may be surprised that the index fingers' modifier is\n    // sent immediately without the rest of your multi-mod chord when you\n    // perform outward rolls from your index fingers toward your pinkies.\n    //\n    #ifndef SHIFT_HOLDING_TIME\n    #define SHIFT_HOLDING_TIME 170\n    #endif\n\n    // SHIFT_STREAK_DECAY defines how long you need to wait (milliseconds)\n    // after typing before you can use home row mods again.  It prevents\n    // unintended activation of home row mods when you're actively typing.\n    //\n    #ifndef SHIFT_STREAK_DECAY\n    #define SHIFT_STREAK_DECAY 70 // global-quick-tap-ms\n    #endif\n\n    // SHIFT_REPEAT_DECAY defines how much time you have left (milliseconds)\n    // after tapping a key to hold it again in order to make it auto-repeat.\n    //\n    #ifndef SHIFT_REPEAT_DECAY\n    #define SHIFT_REPEAT_DECAY 300 // \"tap then hold\" for key auto-repeat\n    #endif\n\n    //----------------------------------------------------------------\n    //                              thumbs\n    //----------------------------------------------------------------\n    //\n    // THUMB_HOLDING_TYPE defines the flavor of ZMK hold-tap behavior to use\n    // for the thumbs (which are assigned to 6 layers in the Miryoku system).\n    //\n    // NOTE: The \"balanced\" flavor of ZMK hold-tap provides instant modifier\n    // activation for the symbol layer (if the tapped symbol key is released\n    // while the thumb layer key is still held down) for quicker programming.\n    //\n    #ifndef THUMB_HOLDING_TYPE\n    #define THUMB_HOLDING_TYPE \"balanced\"\n    #endif\n\n    // THUMB_HOLDING_TIME defines how long you need to hold (milliseconds)\n    // a thumb key to activate a layer.  Shorter holds are treated as taps.\n    //\n    #ifndef THUMB_HOLDING_TIME\n    #define THUMB_HOLDING_TIME 200\n    #endif\n\n\n    // THUMB_REPEAT_DECAY defines how much time you have left (milliseconds)\n    // after tapping a key to hold it again in order to make it auto-repeat.\n    //\n    #ifndef THUMB_REPEAT_DECAY\n    #define THUMB_REPEAT_DECAY 300 // \"tap then hold\" for key auto-repeat\n    #endif\n\n    // SPACE_HOLDING_TIME defines how long you need to hold (milliseconds)\n    // the space thumb key to activate.  Shorter holds are treated as taps.\n    //\n    #ifndef SPACE_HOLDING_TIME\n    #define SPACE_HOLDING_TIME 170\n    #endif\n\n    // SPACE_REPEAT_DECAY defines how much time you have left (milliseconds)\n    // after tapping a key to hold it again in order to make it auto-repeat.\n    //\n    #ifndef SPACE_REPEAT_DECAY\n    #define SPACE_REPEAT_DECAY 200 // \"tap then hold\" for key auto-repeat\n    #endif\n\n    // Glove80 key positions index for positional hold-tap\n    // - https://discord.com/channels/877392805654306816/937645688244826154/1066713913351221248\n    // - https://media.discordapp.net/attachments/937645688244826154/1066713913133121556/image.png\n    //\n    // |------------------------|------------------------|\n    // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n    // |                        |                        |\n    // |  0  1  2  3  4         |          5  6  7  8  9 |\n    // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n    // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n    // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n    // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n    // | 64 65 66 67 68         |         75 76 77 78 79 |\n    // |                69 52   |   57 74                |\n    // |                 70 53  |  56 73                 |\n    // |                  71 54 | 55 72                  |\n    // |------------------------|------------------------|\n    //\n    #ifndef LEFT_HAND_KEYS\n    #define LEFT_HAND_KEYS      \\\n          0  1  2  3  4         \\\n         10 11 12 13 14 15      \\\n         22 23 24 25 26 27      \\\n         34 35 36 37 38 39      \\\n         46 47 48 49 50 51      \\\n         64 65 66 67 68\n    #endif\n    #ifndef RIGHT_HAND_KEYS\n    #define RIGHT_HAND_KEYS     \\\n                                           5  6  7  8  9 \\\n                                       16 17 18 19 20 21 \\\n                                       28 29 30 31 32 33 \\\n                                       40 41 42 43 44 45 \\\n                                       58 59 60 61 62 63 \\\n                                          75 76 77 78 79\n    #endif\n    #ifndef THUMB_KEYS\n    #define THUMB_KEYS          \\\n                        69 52       57 74                \\\n                         70 53     56 73                 \\\n                          71 54   55 72\n    #endif\n\n    //----------------------------------------------------------------\n    //                              thumbs\n    //----------------------------------------------------------------\n    // Home row mod-tap keys for all except index fingers\n    //\n    homey_left: miryoku_home_row_mods_left_hand {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"HOME_ROW_MODS_LEFT_HAND\";\n        flavor = HOMEY_HOLDING_TYPE;\n        hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n        hold-trigger-on-release; // wait for other home row mods\n        tapping-term-ms = <HOMEY_HOLDING_TIME>;\n        quick-tap-ms = <HOMEY_REPEAT_DECAY>;\n        require-prior-idle-ms = <HOMEY_STREAK_DECAY>;\n        #binding-cells = <2>;\n        bindings = <&kp>, <&kp>;\n    };\n    homey_right: miryoku_home_row_mods_right_hand {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"HOME_ROW_MODS_RIGHT_HAND\";\n        flavor = HOMEY_HOLDING_TYPE;\n        hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n        hold-trigger-on-release; // wait for other home row mods\n        tapping-term-ms = <HOMEY_HOLDING_TIME>;\n        quick-tap-ms = <HOMEY_REPEAT_DECAY>;\n        require-prior-idle-ms = <HOMEY_STREAK_DECAY>;\n        #binding-cells = <2>;\n        bindings = <&kp>, <&kp>;\n    };\n\n    // Special home row mod-tap keys for the index fingers\n    //\n    shift_left: miryoku_home_row_mods_left_shift_shift {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"HOME_ROW_MODS_LEFT_SHIFT_SHIFT\";\n        flavor = SHIFT_HOLDING_TYPE;\n        hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n        //hold-trigger-on-release; // don't wait for other mods\n        tapping-term-ms = <SHIFT_HOLDING_TIME>;\n        quick-tap-ms = <SHIFT_REPEAT_DECAY>;\n        require-prior-idle-ms = <SHIFT_STREAK_DECAY>;\n        #binding-cells = <2>;\n        bindings = <&kp>, <&kp>;\n    };\n    shift_right: miryoku_home_row_mods_right_shift_shift {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"HOME_ROW_MODS_RIGHT_SHIFT_SHIFT\";\n        flavor = SHIFT_HOLDING_TYPE;\n        hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n        //hold-trigger-on-release; // don't wait for other mods\n        tapping-term-ms = <SHIFT_HOLDING_TIME>;\n        quick-tap-ms = <SHIFT_REPEAT_DECAY>;\n        require-prior-idle-ms = <SHIFT_STREAK_DECAY>;\n        #binding-cells = <2>;\n        bindings = <&kp>, <&kp>;\n    };\n\n    // Thumb cluster hold-tap keys for Miryoku layers\n    //\n    thumb: thumb_layer_switch_on_hold {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"MIRYOKU_THUMB_LAYER\";\n        flavor = THUMB_HOLDING_TYPE;\n        tapping-term-ms = <THUMB_HOLDING_TIME>;\n        quick-tap-ms = <THUMB_REPEAT_DECAY>; // enable repeat\n        //global-quick-tap; // no typing streak\n        //retro-tap; // don't allow slow (hold-like) taps\n        #binding-cells = <2>;\n        bindings = <&mo>, <&kp>;\n    };\n    thumb_hold: thumb_layer_switch_on_hold_but_allow_hold_for_repetition {\n        compatible = \"zmk,behavior-hold-tap\";\n        label = \"MIRYOKU_THUMB_LAYER_SPACEBAR\";\n        flavor = THUMB_HOLDING_TYPE;\n        tapping-term-ms = <SPACE_HOLDING_TIME>;\n        quick-tap-ms = <SPACE_REPEAT_DECAY>; // enable repeat\n        //global-quick-tap; // no typing streak\n        retro-tap; // allow slow (hold-like) taps\n        #binding-cells = <2>;\n        bindings = <&mo>, <&kp>;\n    };\n\n    //////////////////////////////////////////////////////////////////////////\n    //\n    // Custom shifted pairs\n    //\n    //////////////////////////////////////////////////////////////////////////\n\n    // Shift + CapsWord = CapsLock\n    x10_cappy: capsword_and_capslock {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_CAPSWORD_AND_CAPSLOCK\";\n        #binding-cells = <0>;\n        bindings = <&caps_word>, <&kp CAPSLOCK>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n\n    // Shift + NUMBER_2 = AT_SIGN\n    x10_twoalpha: number_2_and_at_sign {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_NUMBER_2_AND_AT_SIGN\";\n        #binding-cells = <0>;\n        bindings = <&kp NUMBER_2>, <&kp AT_SIGN>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    // Shift + NUMBER_4 = DOLLAR\n    x10_fourdollar: number_4_and_dollar {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_NUMBER_2_AND_DOLLAR\";\n        #binding-cells = <0>;\n        bindings = <&kp NUMBER_4>, <&kp DOLLAR>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // Shift + PERIOD = GREATER_THAN\n    x10_perthan: period_and_greater_than {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_PERIOD_AND_GREATER_THAN\";\n        #binding-cells = <0>;\n        //bindings = <&kp PERIOD>, <&kp LS(LESS_THAN)>; //TODO: Fix?\n        bindings = <&kp PERIOD>, <&kp GREATER_THAN>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    // Shift + PERIOD = GREATER_THAN\n    x10_commthan: comma_and_less_than {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_COMMA_AND_LESS_THAN\";\n        #binding-cells = <0>;\n        bindings = <&kp COMMA>, <&kp LESS_THAN>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // Shift + LEFT_SQUARE_BRACKET = LEFT_BRACE\n    x10_bracurl_left: left_bracket_and_left_brace {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_LEFT_BRACKET_AND_LEFT_BRACE\";\n        #binding-cells = <0>;\n        //bindings = <&kp RALT(NUMBER_8)>, <&kp RALT(NUMBER_7)>; //TODO: Fix?\n        bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    // Shift + RIGHT_BRACKET = RIGHT_BRACE\n    x10_bracurl_right: right_bracket_and_right_brace {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_RIGHT_BRACKET_AND_RIGHT_BRACE\";\n        #binding-cells = <0>;\n        //bindings = <&kp RALT(NUMBER_9)>, <&kp RALT(NUMBER_0)>; //TODO: Fix?\n        bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // SHIFT + SEMICOLON = COLON\n    x10_doubledots: x10_semicolon_and_colon {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_PIPE_AND_BACKSLASH\";\n        #binding-cells = <0>;\n        //bindings = <&kp LS(COMMA)>, <&kp LS(PERIOD)>; //TODO: Fix?\n        bindings = <&kp SEMICOLON>, <&kp COLON>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // SHIFT + PIPE = BACKSLASH\n    x10_pishas: x10_pipe_and_backslash {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_PIPE_AND_BACKSLASH\";\n        #binding-cells = <0>;\n        bindings = <&kp PIPE>, <&kp BACKSLASH>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // SHIFT + SINGLE_QUOTE = DOUBLE_QUOTES\n    x10_quotes: x10_single_quote_and_double_quotes {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"x10_SINGLE_QUOTES_AND_DOUBLE_QUOTES\";\n        #binding-cells = <0>;\n        //bindings = <&kp SINGLE_QUOTE>, <&kp LS(NUMBER_2)>; //TODO: Fix?\n        bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n\n    // CapsWord - ported from Pascal Getreuer's extension for QMK\n    // - https://zmk.dev/docs/behaviors/caps-word\n    // - https://getreuer.info/posts/keyboards/caps-word/index.html\n    //\n    behavior_caps_word {\n        continue-list = <\n            UNDERSCORE MINUS\n            BACKSPACE DELETE\n            N1 N2 N3 N4 N5 N6 N7 N8 N9 N0\n        >;\n    };\n\n};\n\nmacros {\n\n    //////////////////////////////////////////////////////////////////\n    // Approximation of Pascal Getreuer's Select Word macro from QMK\n    // - https://getreuer.info/posts/keyboards/select-word/index.html\n    //////////////////////////////////////////////////////////////////\n    //\n    // SELECT_WORD_DELAY defines how long the macro waits (milliseconds)\n    // after moving the cursor before it selects a word.  A larger delay\n    // may allow the macro to move to the next word upon each invocation.\n    //\n    #ifndef SELECT_WORD_DELAY\n    #define SELECT_WORD_DELAY 1\n    #endif\n\n    ZMK_MACRO(select_none,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp DOWN &kp UP &kp RIGHT &kp LEFT>;\n    )\n\n    // select a word (jumps to next word upon each successive invocation)\n    //\n    select_word: select_word {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"SELECT_WORD\";\n        #binding-cells = <0>;\n        bindings = <&select_word_right>, <&select_word_left>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    ZMK_MACRO(select_word_right,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LC(RIGHT) &kp LC(LEFT) &kp LC(LS(RIGHT))>;\n    )\n    ZMK_MACRO(select_word_left,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LC(LEFT) &kp LC(RIGHT) &kp LC(LS(LEFT))>;\n    )\n\n    // extend current selection by one word\n    //\n    extend_word: extend_word {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"EXTEND_WORD\";\n        #binding-cells = <0>;\n        bindings = <&extend_word_right>, <&extend_word_left>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    ZMK_MACRO(extend_word_right,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LC(LS(RIGHT))>;\n    )\n    ZMK_MACRO(extend_word_left,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LC(LS(LEFT))>;\n    )\n\n    // select current line\n    //\n    select_line: select_line {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"SELECT_LINE\";\n        #binding-cells = <0>;\n        bindings = <&select_line_right>, <&select_line_left>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    ZMK_MACRO(select_line_right,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp HOME &kp LS(END)>;\n    )\n    ZMK_MACRO(select_line_left,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp END &kp LS(HOME)>;\n    )\n\n    // extend current selection by one line\n    //\n    extend_line: extend_line {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"EXTEND_LINE\";\n        #binding-cells = <0>;\n        bindings = <&extend_line_right>, <&extend_line_left>;\n        mods = <(MOD_LSFT|MOD_RSFT)>;\n    };\n    ZMK_MACRO(extend_line_right,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LS(DOWN) &kp LS(END)>;\n    )\n    ZMK_MACRO(extend_line_left,\n        wait-ms = <SELECT_WORD_DELAY>;\n        tap-ms = <SELECT_WORD_DELAY>;\n        bindings = <&kp LS(UP) &kp LS(HOME)>;\n    )\n\n\n\n    //////////////////////////////////////////////////////////////////////////\n    //\n    // World layer - international characters\n    //\n    //////////////////////////////////////////////////////////////////////////\n\n    //\n    // UNICODE_TARGET_OS defines which operating system you're targeting\n    // for use with the UNICODE() macro.  This is needed because each OS\n    // has different shortcuts for typing Unicode characters as hexcodes.\n    //\n    // NOTE: You may need to enable Unicode hexadecimal input in your OS:\n    // - https://ladedu.com/how-to-enter-unicode-characters-on-a-mac/\n    // - https://unicode-explorer.com/articles/how-to-type-unicode-characters-in-linux\n    // - https://unicode-explorer.com/articles/how-to-type-unicode-characters-in-windows\n    //\n    #ifndef UNICODE_TARGET_OS\n    #define UNICODE_TARGET_OS 1 // linux\n    //#define UNICODE_TARGET_OS 2 // macos\n    //#define UNICODE_TARGET_OS 3 // windows\n    #endif\n\n    //\n    // UNICODE_TAP_DELAY defines how long the macro waits (milliseconds)\n    // between keystrokes while inputting the Unicode codepoint shortcut.\n    //\n    #ifndef UNICODE_TAP_DELAY\n    #define UNICODE_TAP_DELAY 1\n    #endif\n\n    //\n    // UNICODE_SEQ_DELAY defines how long the macro waits (milliseconds)\n    // between emitting Unicode codepoints in multi-codepoint characters.\n    //\n    #ifndef UNICODE_SEQ_DELAY\n    #define UNICODE_SEQ_DELAY 10\n    #endif\n\n    #define UNICODE(name, ...) \\\n        ZMK_MACRO(name, \\\n            wait-ms = <UNICODE_TAP_DELAY>; \\\n            tap-ms = <UNICODE_TAP_DELAY>; \\\n            bindings = __VA_ARGS__; \\\n        )\n\n    //\n    // NOTE: edit the emoji.yaml file and run `rake` to generate this:\n    //\n\n    //\n    // codepoints\n    //\n\n      /* ° */ UNICODE(world_degree_sign,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp B &kp N0 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp B &kp N0>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp B &kp KP_N0>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* § */ UNICODE(world_section_sign,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp A &kp N7 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp A &kp N7>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp A &kp KP_N7>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* ¶ */ UNICODE(world_paragraph_sign,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp B &kp N6 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp B &kp N6>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp B &kp KP_N6>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* º */ UNICODE(world_o_ordinal,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp B &kp A &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp B &kp A>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp B &kp A>, <&macro_release &kp LALT>\n        #endif\n      )\n\n\n      /* ` */ UNICODE(world_quotes_grave_lower,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp N6 &kp N0 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp N0>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp KP_N6 &kp KP_N0>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* ´ */ UNICODE(world_quotes_grave_upper,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp B &kp N4 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp B &kp N4>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp B &kp KP_N4>, <&macro_release &kp LALT>\n        #endif\n      )\n\n    grave_quotes: grave_quotes {\n        compatible = \"zmk,behavior-mod-morph\";\n        label = \"WORLD_QUOTES_GRAVE\";\n        #binding-cells = <0>;\n        bindings = <&world_quotes_grave_lower>, <&world_quotes_grave_upper>;\n        mods = <MOD_LSFT>;\n   };\n\n\n      /* æ */ UNICODE(world_e_ae_lower,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp E &kp N6 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp E &kp N6>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp E &kp KP_N6>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* Æ */ UNICODE(world_e_ae_upper,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp C &kp N6 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp C &kp N6>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp C &kp KP_N6>, <&macro_release &kp LALT>\n        #endif\n      )\n\n        norwegian_ae: norwegian_ae {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"WORLD_E_AE\";\n            #binding-cells = <0>;\n            bindings = <&world_e_ae_lower>, <&world_e_ae_upper>;\n            mods = <MOD_LSFT>;\n        };\n\n        \n      /* å */ UNICODE(world_a_ring_lower,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp E &kp N5 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp E &kp N5>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp E &kp KP_N5>, <&macro_release &kp LALT>\n        #endif\n      )\n\n      /* Å */ UNICODE(world_a_ring_upper,\n        #if UNICODE_TARGET_OS == 1\n          <&kp LC(LS(U)) &kp C &kp N5 &kp ENTER>\n        #elif UNICODE_TARGET_OS == 2\n          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp C &kp N5>, <&macro_release &kp LALT>\n        #elif UNICODE_TARGET_OS == 3\n          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp C &kp KP_N5>, <&macro_release &kp LALT>\n        #endif\n      )\n\n        norwegian_a_ring: norwegian_a_ring {\n            compatible = \"zmk,behavior-mod-morph\";\n            label = \"WORLD_A_RING\";\n            #binding-cells = <0>;\n            bindings = <&world_a_ring_lower>, <&world_a_ring_upper>;\n            mods = <MOD_LSFT>;\n        };\n    };",
+  "custom_devicetree": "",
+  "config_parameters": []
+}
