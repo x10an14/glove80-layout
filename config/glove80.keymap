@@ -577,8 +577,7 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "x10_PERIOD_AND_GREATER_THAN";
         #binding-cells = <0>;
-        //bindings = <&kp PERIOD>, <&kp LS(LESS_THAN)>; //TODO: Fix?
-        bindings = <&kp PERIOD>, <&kp GREATER_THAN>;
+        bindings = <&kp PERIOD>, <&kp LS(LESS_THAN)>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     // Shift + PERIOD = GREATER_THAN
@@ -595,8 +594,7 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "x10_LEFT_BRACKET_AND_LEFT_BRACE";
         #binding-cells = <0>;
-        //bindings = <&kp RALT(NUMBER_8)>, <&kp RALT(NUMBER_7)>; //TODO: Fix?
-        bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+        bindings = <&kp RA(NUMBER_8)>, <&kp RA(NUMBER_7)>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     // Shift + RIGHT_BRACKET = RIGHT_BRACE
@@ -604,8 +602,7 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "x10_RIGHT_BRACKET_AND_RIGHT_BRACE";
         #binding-cells = <0>;
-        //bindings = <&kp RALT(NUMBER_9)>, <&kp RALT(NUMBER_0)>; //TODO: Fix?
-        bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
+        bindings = <&kp RA(NUMBER_9)>, <&kp RA(NUMBER_0)>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
@@ -614,8 +611,7 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "x10_PIPE_AND_BACKSLASH";
         #binding-cells = <0>;
-        //bindings = <&kp LS(COMMA)>, <&kp LS(PERIOD)>; //TODO: Fix?
-        bindings = <&kp SEMICOLON>, <&kp COLON>;
+        bindings = <&kp LS(COMMA)>, <&kp LS(PERIOD)>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
@@ -633,8 +629,7 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         label = "x10_SINGLE_QUOTES_AND_DOUBLE_QUOTES";
         #binding-cells = <0>;
-        //bindings = <&kp SINGLE_QUOTE>, <&kp LS(NUMBER_2)>; //TODO: Fix?
-        bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+        bindings = <&kp SINGLE_QUOTE>, <&kp LS(NUMBER_2)>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
