@@ -26,10 +26,10 @@
         keymap = "${self}/config/glove80.keymap";
         kconfig = "${self}/config/glove80.conf";
       };
-      glove80Firmware =
-        moergo.combine_uf2
-        (moergo.zmk.override config // {board = "glove80_lh";})
-        (moergo.zmk.override config // {board = "glove80_rh";});
+      right_hand = moergo.zmk.override (config // {board = "glove80_rh";});
+      left_hand = moergo.zmk.override (config // {board = "glove80_lh";});
+      # Combine the firmware for each half to 1x .u2f file
+      glove80Firmware = moergo.combine_uf2 left_hand right_hand;
 
       ###   ZMK / Glove80 independent stuff:
       pkgs = import inputs.nixpkgs {localSystem = {inherit system;};};
@@ -56,7 +56,7 @@
       };
 
       packages = {
-        inherit glove80Firmware;
+        inherit glove80Firmware right_hand left_hand;
         default = glove80Firmware;
       };
 
