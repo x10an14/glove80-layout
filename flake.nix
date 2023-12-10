@@ -36,14 +36,21 @@
     in {
       devShell = pkgs.mkShell {
         shellHook = ''
+          # Linting
           ${pkgs.deadnix}/bin/deadnix --fail --hidden &&
             echo -e "\n\tThere's no dead nix code in your codebase, yay!\n"
           ${pkgs.statix}/bin/statix check .
+
+          # Required for pipx -> used to install keymap-drawer
+          export PATH="$PATH:$HOME/.local/bin"
         '';
+
         packages = with pkgs; [
           nix-output-monitor
           alejandra
+          (python3.withPackages (pyPackage: with pyPackage; [pipx]))
         ];
+
         # Add used tooling to build firmware to devShell so as to enable manual building
         inputsFrom = [glove80Firmware];
       };

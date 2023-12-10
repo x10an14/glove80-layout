@@ -24,6 +24,14 @@ Thereafter, do this whenever you want to work on this locally:
 1. Each time you want to build locally; `nom build`
    - If successful, your firmware file can be found in `result/glove80.uf2`
 
+### Generate SVG of layout
+Only do once:
+1. Ensure local development tools are installed
+1. Run `pipx install keymap-drawer` (one-time operation)
+
+Every time you want to generate the svg (after the above has been done):
+1. `keymap parse --zmk-keymap config/glove80.keymap | keymap draw - > keymap.svg`
+
 ## Resources
 - The [moergo-sc/glove80-zmk-config](https://github.com/moergo-sc/glove80-zmk-config) repository this is forked from.
 - Further documentation/resource links available there at the time of this writing.
