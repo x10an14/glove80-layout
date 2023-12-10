@@ -22,8 +22,9 @@
 
 /* Automatically generated layer name #define */
 #define LAYER_Engrammer_NO 0
-#define LAYER_Lower 1
-#define LAYER_Magic 2
+#define LAYER_Norwegian 1
+#define LAYER_Lower 2
+#define LAYER_Magic 3
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 #ifndef LAYER_Lower
@@ -901,6 +902,33 @@ macros {
             mods = <MOD_LSFT>;
         };
 
+      /* ø */ UNICODE(world_o_slash_lower,
+        #if UNICODE_TARGET_OS == 1
+          <&kp LC(LS(U)) &kp F &kp N8 &kp ENTER>
+        #elif UNICODE_TARGET_OS == 2
+          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp F &kp N8>, <&macro_release &kp LALT>
+        #elif UNICODE_TARGET_OS == 3
+          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp F &kp KP_N8>, <&macro_release &kp LALT>
+        #endif
+      )
+
+      /* Ø */ UNICODE(world_o_slash_upper,
+        #if UNICODE_TARGET_OS == 1
+          <&kp LC(LS(U)) &kp D &kp N8 &kp ENTER>
+        #elif UNICODE_TARGET_OS == 2
+          <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp D &kp N8>, <&macro_release &kp LALT>
+        #elif UNICODE_TARGET_OS == 3
+          <&macro_press &kp LALT>, <&macro_tap &kp KP_PLUS &kp D &kp KP_N8>, <&macro_release &kp LALT>
+        #endif
+      )
+
+        norwegian_oe: norwegian_oe {
+            compatible = "zmk,behavior-mod-morph";
+            label = "WORLD_O_SLASH";
+            #binding-cells = <0>;
+            bindings = <&world_o_slash_lower>, <&world_o_slash_upper>;
+            mods = <MOD_LSFT>;
+        };
         
       /* å */ UNICODE(world_a_ring_lower,
         #if UNICODE_TARGET_OS == 1
@@ -940,12 +968,23 @@ macros {
 
         layer_Engrammer_NO {
             bindings = <
-               &kp F1              &kp F2              &kp F3               &kp F4                &kp F5                                                                                                             &kp F6                &kp F7               &kp F8               &kp F9               &kp F10
-             &kp RBKT              &kp N1       &x10_twoalpha               &kp N3       &x10_fourdollar           &kp N5                                                                     &kp N6                 &kp N7                &kp N8               &kp N9               &kp N0             &kp PSCRN
-              &kp TAB               &kp B  &homey_left RALT Y                &kp O                 &kp U  &x10_doubledots                                                                  &kp MINUS                  &kp L                 &kp D  &homey_right RALT W                &kp V             &kp PG_UP
-              &kp ESC  &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A    &x10_commthan                                                               &x10_perthan  &shift_right RSHIFT R  &homey_right RCTRL T  &homey_right LALT N  &homey_right RGUI S            &x10_cappy
-                &none               &kp P               &kp X                &kp J                 &kp K      &x10_quotes   &kp BSPC  &kp INS    &lower   &lower  &kp K_APP    &kp DEL      &kp FSLH                  &kp F                 &kp M                &kp C                &kp G             &kp PG_DN
- &magic LAYER_Magic 0               &kp Z       &grave_quotes                &none     &x10_bracurl_left                   &kp SPACE  &kp RET  &kp HOME  &kp END    &kp RET  &kp SPACE                   &x10_bracurl_right                 &none          &x10_pishas                &kp Q  &magic LAYER_Magic 0
+               &kp F1              &kp F2              &kp F3               &kp F4                &kp F5                                                                                                                                     &kp F6                &kp F7               &kp F8               &kp F9               &kp F10
+             &kp RBKT              &kp N1       &x10_twoalpha               &kp N3       &x10_fourdollar           &kp N5                                                                                             &kp N6                 &kp N7                &kp N8               &kp N9               &kp N0             &kp PSCRN
+              &kp TAB               &kp B  &homey_left RALT Y                &kp O                 &kp U  &x10_doubledots                                                                                          &kp MINUS                  &kp L                 &kp D  &homey_right RALT W                &kp V             &kp PG_UP
+              &kp ESC  &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A    &x10_commthan                                                                                       &x10_perthan  &shift_right RSHIFT R  &homey_right RCTRL T  &homey_right LALT N  &homey_right RGUI S            &x10_cappy
+                &none               &kp P               &kp X                &kp J                 &kp K      &x10_quotes   &kp BSPC  &kp INS    &lower   &lower  &kp K_APP                            &kp DEL      &kp FSLH                  &kp F                 &kp M                &kp C                &kp G             &kp PG_DN
+ &magic LAYER_Magic 0               &kp Z       &grave_quotes                &none     &x10_bracurl_left                   &kp SPACE  &kp RET  &kp HOME  &kp END    &kp RET  &thumb_hold LAYER_Norwegian SPACE                   &x10_bracurl_right                 &none          &x10_pishas                &kp Q  &magic LAYER_Magic 0
+            >;
+        };
+
+        layer_Norwegian {
+            bindings = <
+ &trans  &trans  &trans                          &trans                           &trans                                                                  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans                          &trans                           &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans                        &kp SEMI                           &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &homey_left LCTRL SINGLE_QUOTE  &shift_left LSHIFT LEFT_BRACKET  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans                          &trans                           &trans  &trans  &trans  &trans  &trans  &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans                          &trans                           &trans          &trans  &trans  &trans  &trans  &trans   &none          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
