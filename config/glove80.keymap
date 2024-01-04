@@ -587,11 +587,11 @@ endif {
 
         // Shift + NUMBER_9 = CARET
 
-        x10_ninret: number_9_and_caret {
+        x10_ninqual: number_9_and_equal {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_9_AND_CARET";
+            label = "x10_NUMBER_9_AND_EQUAL";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_9>, <&kp CARET>;
+            bindings = <&kp NUMBER_9>, <&kp EQUAL>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -644,12 +644,12 @@ endif {
 
         layer_EngrammerNO_Base {
             bindings = <
-&kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                  &kp F6                 &kp F7               &kp F8               &kp F9               &kp F10
-&none                 &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                               &x10_sixamp  &x10_sevlash           &kp N8               &x10_ninret          &x10_zerquals        &none
-&none                 &kp B               &homey_left RALT Y  &kp O                &kp U                 &none                                                                &kp SEMI     &kp L                  &kp D                &homey_right RALT W  &kp V                &kp PG_UP
-&none                 &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SQT                                                              &kp MINUS    &shift_right RSHIFT R  &homey_right RCTL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
-&none                 &kp P               &kp X               &kp J                &kp K                 &kp COMMA  &kp BSPC   &none    &lower   &lower   &none    &kp DEL    &kp DOT      &kp F                  &kp M                &kp C                &kp G                &kp PG_DN
-&magic LAYER_Magic 0  &kp Z               &kp LEFT            &kp UP               &kp LBKT                         &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE               &kp RBKT               &kp DOWN             &kp RIGHT            &kp Q                &magic LAYER_Magic 0
+&kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                       &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
+&none                 &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                   &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerquals        &none
+&none                 &kp B               &homey_left RALT Y  &kp O                &kp U                 &kp SEMICOLON                                                            &kp FSLH      &kp L                  &kp D                         &homey_right RALT W  &kp V                &kp PG_UP
+&none                 &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SQT                                                                  &kp MINUS     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
+&none                 &kp P               &kp X               &kp J                &kp K                 &kp COMMA      &kp BSPC   &none    &lower   &lower   &none    &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp PG_DN
+&magic LAYER_Magic 0  &kp Z               &kp LEFT            &kp UP               &kp LBKT                             &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                &kp RBKT               &kp DOWN                      &kp RIGHT            &kp Q                &magic LAYER_Magic 0
             >;
         };
 
