@@ -21,24 +21,19 @@
 
 /* Automatically generated layer name #define */
 
+/* To deal with the situation where there is no Lower layer, to keep &lower happy */
+#ifndef LAYER_Lower
+#define LAYER_Lower 0
+#endif
+
 #define LAYER_EngrammerNO_Base 0
 #define LAYER_Lower 1
 #define LAYER_Magic 2
+#define LAYER_Gaming 3
 
-/* To deal with the situation where there is no Lower layer, to keep &lower happy */
-
-#ifndef LAYER_Lower
-
-#define LAYER_Lower 0
-
-#
-
-endif {
     /* Custom Device-tree */
+/ {
     /* Glove80 system behavior & macros */
-
-    /
-
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
@@ -703,7 +698,7 @@ endif {
 &kp TAB               &kp B               &homey_left RALT Y  &kp O                &kp U                 &x10_paripe                                                                                         &x10_parblsh  &kp L                  &kp D                         &homey_right RALT W  &kp V                &kp SCROLLLOCK
 &kp ESCAPE            &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SINGLE_QUOTE                                                                                    &kp SLASH     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
 &kp SEMICOLON         &kp P               &kp X               &kp J                &kp K                 &kp COMMA         &kp BSPC             &kp INSERT   &lower   &lower   &kp K_APPLICATION  &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp MINUS
-&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                                &thumb_hold 3 SPACE  &key_repeat  &kp RET  &kp RET  &key_repeat        &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
+&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                                &thumb_hold LAYER_Gaming SPACE  &key_repeat  &kp RET  &kp RET  &key_repeat        &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
             >;
         };
 
@@ -729,7 +724,7 @@ endif {
             >;
         };
 
-        layer_3 {
+        layer_Gaming {
             bindings = <
 &kp F1     &kp F2  &kp F3    &kp F4    &kp F5                                                                               &kp F6             &kp F7     &kp F8    &kp F9     &kp F10
 &kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4            &kp N5                                                     &kp N6  &kp N7             &kp N8     &kp N9    &kp N0     &kp MINUS
