@@ -598,11 +598,11 @@ endif {
 
         // Shift + NUMBER_0 = EQUAL
 
-        x10_zerquals: number_0_and_equals {
+        x10_zerilde: number_0_and_tilde {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_0_AND_EQUAL";
+            label = "x10_NUMBER_0_AND_TILDE";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_0>, <&kp EQUAL>;
+            bindings = <&kp NUMBER_0>, <&kp TILDE>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -680,12 +680,12 @@ endif {
 
         layer_EngrammerNO_Base {
             bindings = <
-&kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                       &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
-&none                 &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                   &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerquals        &none
-&none                 &kp B               &homey_left RALT Y  &kp O                &kp U                 &kp SEMICOLON                                                            &kp FSLH      &kp L                  &kp D                         &homey_right RALT W  &kp V                &kp PG_UP
-&none                 &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SQT                                                                  &kp MINUS     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
-&none                 &kp P               &kp X               &kp J                &kp K                 &kp COMMA      &kp BSPC   &none    &lower   &lower   &none    &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp PG_DN
-&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                             &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
+&kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                          &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
+&kp PRINTSCREEN       &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                      &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerilde         &kp SCROLLLOCK
+&kp TAB               &kp B               &homey_left RALT Y  &kp O                &kp U                 &none                                                                       &none         &kp L                  &kp D                         &homey_right RALT W  &kp V                &kp SYSREQ
+&kp ESCAPE            &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SINGLE_QUOTE                                                            &kp SLASH     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
+&kp SEMICOLON         &kp P               &kp X               &kp J                &kp K                 &kp COMMA         &kp BSPC   &none    &lower   &lower   &none    &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp MINUS
+&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                                &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
             >;
         };
 
