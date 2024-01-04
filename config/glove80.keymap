@@ -28,14 +28,17 @@
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 
 #ifndef LAYER_Lower
+
 #define LAYER_Lower 0
-#endif
 
-/* Custom Device-tree */
+#
 
+endif {
+    /* Custom Device-tree */
+    /* Glove80 system behavior & macros */
 
-/* Glove80 system behavior & macros */
-/ {
+    /
+
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
@@ -627,6 +630,42 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        x10_up: x10_up {
+            compatible = "zmk,behavior-mod-morph";
+            label = "X10_UP";
+            bindings = <&kp UP_ARROW>, <&kp PAGE_UP>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        x10_down: x10_down {
+            compatible = "zmk,behavior-mod-morph";
+            label = "X10_DOWN";
+            bindings = <&kp DOWN_ARROW>, <&kp PAGE_DOWN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        x10_right: x10_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "X10_RIGHT";
+            bindings = <&kp RIGHT_ARROW>, <&kp END>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        x10_left: x10_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "X10_LEFT";
+            bindings = <&kp LEFT_ARROW>, <&kp HOME>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
     };
 
     macros {
@@ -646,7 +685,7 @@
 &none                 &kp B               &homey_left RALT Y  &kp O                &kp U                 &kp SEMICOLON                                                            &kp FSLH      &kp L                  &kp D                         &homey_right RALT W  &kp V                &kp PG_UP
 &none                 &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SQT                                                                  &kp MINUS     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
 &none                 &kp P               &kp X               &kp J                &kp K                 &kp COMMA      &kp BSPC   &none    &lower   &lower   &none    &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp PG_DN
-&magic LAYER_Magic 0  &kp Z               &kp LEFT            &kp UP               &kp LBKT                             &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                &kp RBKT               &kp DOWN                      &kp RIGHT            &kp Q                &magic LAYER_Magic 0
+&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                             &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
             >;
         };
 
