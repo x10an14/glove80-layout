@@ -21,10 +21,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /* Automatically generated layer name #define */
-#define LAYER_Engrammer_NO 0
-#define LAYER_Norwegian 1
-#define LAYER_Lower 2
-#define LAYER_Magic 3
+#define LAYER_EngrammerNO_Base 0
+#define LAYER_Lower 1
+#define LAYER_Magic 2
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 #ifndef LAYER_Lower
@@ -546,100 +545,39 @@
         //
         //////////////////////////////////////////////////////////////////////////
 
-        // Shift + CapsWord = CapsLock
-        x10_cappy: capsword_and_capslock {
+        // Shift + NUMBER_6 = AMPERSAND
+        x10_sixamp: number_6_and_ampersand {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_CAPSWORD_AND_CAPSLOCK";
+            label = "x10_NUMBER_6_AND_AMPERSAND";
             #binding-cells = <0>;
-            bindings = <&caps_word>, <&kp CAPSLOCK>;
+            bindings = <&kp NUMBER_6>, <&kp LS(NUMBER_7)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-
-        // Shift + NUMBER_2 = AT_SIGN
-        x10_twoalpha: number_2_and_at_sign {
+        // Shift + NUMBER_7 = FORWARD_SLASH
+        x10_sevlash: number_7_and_forward_slash {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_2_AND_AT_SIGN";
+            label = "x10_NUMBER_7_AND_FORWARD_SLASH";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_2>, <&kp RA(NUMBER_2)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        // Shift + NUMBER_4 = DOLLAR
-        x10_fourdollar: number_4_and_dollar {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_2_AND_DOLLAR";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_4>, <&kp RA(NUMBER_4)>;
+            bindings = <&kp NUMBER_7>, <&kp FSLH>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        // Shift + PERIOD = GREATER_THAN
-        x10_perthan: period_and_greater_than {
+        // Shift + NUMBER_9 = CARET
+        x10_ninret: number_9_and_caret {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_PERIOD_AND_GREATER_THAN";
+            label = "x10_NUMBER_9_AND_CARET";
             #binding-cells = <0>;
-            bindings = <&kp PERIOD>, <&kp LS(NON_US_BSLH)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        // Shift + COMMA = LESS_THAN
-        x10_commthan: comma_and_less_than {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_COMMA_AND_LESS_THAN";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp NON_US_BSLH>;
+            bindings = <&kp NUMBER_9>, <&kp CARET>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        // Shift + LEFT_SQUARE_BRACKET = LEFT_BRACE
-        x10_bracurl_left: left_bracket_and_left_brace {
+        // Shift + NUMBER_0 = EQUAL
+        x10_zerquals: number_0_and_equals {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_LEFT_BRACKET_AND_LEFT_BRACE";
+            label = "x10_NUMBER_0_AND_EQUAL";
             #binding-cells = <0>;
-            bindings = <&kp RA(NUMBER_8)>, <&kp RA(NUMBER_7)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        // Shift + RIGHT_BRACKET = RIGHT_BRACE
-        x10_bracurl_right: right_bracket_and_right_brace {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_RIGHT_BRACKET_AND_RIGHT_BRACE";
-            #binding-cells = <0>;
-            bindings = <&kp RA(NUMBER_9)>, <&kp RA(NUMBER_0)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        // SHIFT + SEMICOLON = COLON
-        x10_doubledots: x10_semicolon_and_colon {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_SEMICOLON_AND_COLON";
-            #binding-cells = <0>;
-            bindings = <&kp LS(COMMA)>, <&kp LS(PERIOD)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        // SHIFT + PIPE = BACKSLASH
-        x10_pishas: x10_pipe_and_backslash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_PIPE_AND_BACKSLASH";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&kp EQUAL>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        // SHIFT + SINGLE_QUOTE = DOUBLE_QUOTES
-        x10_quotes: x10_single_quote_and_double_quotes {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_SINGLE_QUOTES_AND_DOUBLE_QUOTES";
-            #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp LS(NUMBER_2)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        // SHIFT + GRAVE = BACKTICK
-        x10_graves: x10_grave_and_backtick {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_GRAVE_AND_BACKTICK";
-            #binding-cells = <0>;
-            bindings = <&kp LS(EQUAL)>, <&kp RA(EQUAL)>;
+            bindings = <&kp NUMBER_0>, <&kp EQUAL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -654,109 +592,17 @@
                 N1 N2 N3 N4 N5 N6 N7 N8 N9 N0
             >;
         };
-
+        // Shift + CapsWord = CapsLock
+        x10_cappy: capsword_and_capslock {
+            compatible = "zmk,behavior-mod-morph";
+            label = "x10_CAPSWORD_AND_CAPSLOCK";
+            #binding-cells = <0>;
+            bindings = <&caps_word>, <&kp CAPSLOCK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
-
-        //////////////////////////////////////////////////////////////////
-        // Approximation of Pascal Getreuer's Select Word macro from QMK
-        // - https://getreuer.info/posts/keyboards/select-word/index.html
-        //////////////////////////////////////////////////////////////////
-        //
-        // SELECT_WORD_DELAY defines how long the macro waits (milliseconds)
-        // after moving the cursor before it selects a word.  A larger delay
-        // may allow the macro to move to the next word upon each invocation.
-        //
-        #ifndef SELECT_WORD_DELAY
-        #define SELECT_WORD_DELAY 1
-        #endif
-
-        ZMK_MACRO(select_none,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp DOWN &kp UP &kp RIGHT &kp LEFT>;
-        )
-
-        // select a word (jumps to next word upon each successive invocation)
-        //
-        select_word: select_word {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SELECT_WORD";
-            #binding-cells = <0>;
-            bindings = <&select_word_right>, <&select_word_left>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        ZMK_MACRO(select_word_right,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LC(RIGHT) &kp LC(LEFT) &kp LC(LS(RIGHT))>;
-        )
-        ZMK_MACRO(select_word_left,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LC(LEFT) &kp LC(RIGHT) &kp LC(LS(LEFT))>;
-        )
-
-        // extend current selection by one word
-        //
-        extend_word: extend_word {
-            compatible = "zmk,behavior-mod-morph";
-            label = "EXTEND_WORD";
-            #binding-cells = <0>;
-            bindings = <&extend_word_right>, <&extend_word_left>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        ZMK_MACRO(extend_word_right,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LC(LS(RIGHT))>;
-        )
-        ZMK_MACRO(extend_word_left,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LC(LS(LEFT))>;
-        )
-
-        // select current line
-        //
-        select_line: select_line {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SELECT_LINE";
-            #binding-cells = <0>;
-            bindings = <&select_line_right>, <&select_line_left>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        ZMK_MACRO(select_line_right,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp HOME &kp LS(END)>;
-        )
-        ZMK_MACRO(select_line_left,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp END &kp LS(HOME)>;
-        )
-
-        // extend current selection by one line
-        //
-        extend_line: extend_line {
-            compatible = "zmk,behavior-mod-morph";
-            label = "EXTEND_LINE";
-            #binding-cells = <0>;
-            bindings = <&extend_line_right>, <&extend_line_left>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        ZMK_MACRO(extend_line_right,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LS(DOWN) &kp LS(END)>;
-        )
-        ZMK_MACRO(extend_line_left,
-            wait-ms = <SELECT_WORD_DELAY>;
-            tap-ms = <SELECT_WORD_DELAY>;
-            bindings = <&kp LS(UP) &kp LS(HOME)>;
-        )
     };
 };
 
@@ -766,36 +612,25 @@
         compatible = "zmk,keymap";
 
 
-        layer_Engrammer_NO {
+        layer_EngrammerNO_Base {
             bindings = <
-               &kp F1              &kp F2              &kp F3               &kp F4                &kp F5                                                                                                                                     &kp F6                &kp F7               &kp F8               &kp F9               &kp F10
-             &kp RBKT              &kp N1       &x10_twoalpha               &kp N3       &x10_fourdollar           &kp N5                                                                                             &kp N6                 &kp N7                &kp N8               &kp N9               &kp N0             &kp PSCRN
-              &kp TAB               &kp B  &homey_left RALT Y                &kp O                 &kp U  &x10_doubledots                                                                                          &kp MINUS                  &kp L                 &kp D  &homey_right RALT W                &kp V             &kp PG_UP
-              &kp ESC  &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A    &x10_commthan                                                                                       &x10_perthan  &shift_right RSHIFT R  &homey_right RCTRL T  &homey_right LALT N  &homey_right RGUI S            &x10_cappy
-                &none               &kp P               &kp X                &kp J                 &kp K      &x10_quotes   &kp BSPC  &kp INS    &lower   &lower  &kp K_APP                            &kp DEL      &kp FSLH                  &kp F                 &kp M                &kp C                &kp G             &kp PG_DN
- &magic LAYER_Magic 0               &kp Z         &x10_graves                &none     &x10_bracurl_left                   &kp SPACE  &kp RET  &kp HOME  &kp END    &kp RET  &thumb_hold LAYER_Norwegian SPACE                   &x10_bracurl_right                 &none          &x10_pishas                &kp Q  &magic LAYER_Magic 0
-            >;
-        };
-
-        layer_Norwegian {
-            bindings = <
- &trans  &trans  &trans                          &trans                           &trans                                                                  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans                          &trans                           &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans                        &kp SEMI                           &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &homey_left LCTRL SINGLE_QUOTE  &shift_left LSHIFT LEFT_BRACKET  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans                          &trans                           &trans  &trans  &trans  &trans  &trans  &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans                          &trans                           &trans          &trans  &trans  &trans  &trans  &trans   &none          &trans  &trans  &trans  &trans  &trans
+               &kp F1              &kp F2              &kp F3               &kp F4                &kp F5                                                                                                   &kp F6               &kp F7               &kp F8               &kp F9               &kp F10
+                &none              &kp N1              &kp N2               &kp N3                &kp N4     &kp N5                                                            &x10_sixamp           &x10_sevlash               &kp N8          &x10_ninret        &x10_zerquals                 &none
+                &none               &kp B  &homey_left RALT Y                &kp O                 &kp U      &none                                                               &kp SEMI                  &kp L                &kp D  &homey_right RALT W                &kp V             &kp PG_UP
+                &none  &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A    &kp SQT                                                              &kp MINUS  &shift_right RSHIFT R  &homey_right RCTL T  &homey_right LALT N  &homey_right RGUI S            &x10_cappy
+                &none               &kp P               &kp X                &kp J                 &kp K  &kp COMMA   &kp BSPC    &none   &lower   &lower    &none    &kp DEL      &kp DOT                  &kp F                &kp M                &kp C                &kp G             &kp PG_DN
+ &magic LAYER_Magic 0               &kp Z            &kp LEFT               &kp UP              &kp LBKT             &kp SPACE  &kp ESC  &kp RET  &kp RET  &kp TAB  &kp SPACE                            &kp RBKT             &kp DOWN            &kp RIGHT                &kp Q  &magic LAYER_Magic 0
             >;
         };
 
         layer_Lower {
             bindings = <
- &kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp PAUSE_BREAK
-       &trans        &kp N1          &kp N2          &kp N3           &kp N4     &kp N5                                                       &kp N6      &kp N7        &kp N8        &kp N9      &kp N0           &trans
-       &trans        &trans           &none    &kp UP_ARROW            &none    &kp END                                                        &none   &kp KP_N7     &kp KP_N8     &kp KP_N9      &trans           &trans
-       &trans        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP                                                  &kp PERCENT   &kp KP_N4     &kp KP_N5     &kp KP_N6      &trans            &none
-       &trans        &trans           &none         &kp F11          &kp F12  &kp PG_DN  &trans  &trans   &to 0  &trans  &trans  &trans    &kp COMMA   &kp KP_N1     &kp KP_N2        &trans      &trans           &trans
-       &trans        &trans         &kp INS         &kp F11          &kp F12             &trans  &trans  &trans  &trans  &trans  &trans                    &none         &none        &trans       &none           &trans
+         &kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                                    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP            &none  &kp PAUSE_BREAK
+               &trans         &none           &none           &none            &none   &kp HOME                                                   &kp LEFT_PARENTHESIS  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
+               &trans         &none           &none    &kp UP_ARROW            &none    &kp END                                                  &kp RIGHT_PARENTHESIS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS   &kp SCROLLLOCK
+               &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP                                                            &kp PERCENT   &kp KP_N4     &kp KP_N5     &kp KP_N6      &kp KP_PLUS            &none
+               &trans     &kp K_APP           &none         &kp F11          &kp F12  &kp PG_DN  &trans  &trans   &to 0  &trans  &trans  &trans              &kp COMMA   &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_ENTER           &trans
+ &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11          &kp F12             &trans  &trans  &trans  &trans  &trans  &trans                          &kp KP_N0     &kp KP_N0    &kp KP_DOT     &kp KP_ENTER           &trans
             >;
         };
 
