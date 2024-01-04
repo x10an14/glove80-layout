@@ -28,17 +28,14 @@
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 
 #ifndef LAYER_Lower
-
 #define LAYER_Lower 0
+#endif
 
-#
+/* Custom Device-tree */
 
-endif {
-    /* Custom Device-tree */
-    /* Glove80 system behavior & macros */
 
-    /
-
+/* Glove80 system behavior & macros */
+/ {
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
