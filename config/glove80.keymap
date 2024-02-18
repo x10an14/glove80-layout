@@ -18,11 +18,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
+
 #ifndef LAYER_Lower
+
 #define LAYER_Lower 0
+
 #endif
 
 /* Automatically generated layer name #define */
+
 #define LAYER_EngrammerNO_Base 0
 #define LAYER_Gaming 1
 #define LAYER_Lower 2
@@ -702,12 +706,12 @@
 
         layer_EngrammerNO_Base {
             bindings = <
-&kp F1         &kp F2              &kp F3              &kp F4               &kp F5                                                                                                                                  &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
-&kp GRAVE      &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                                              &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerilde         &kp SCROLLLOCK
-&kp TAB        &kp B               &homey_left RALT Y  &kp O                &kp U                 &x10_paripe                                                                                         &x10_parblsh  &kp L                  &kp D                         &homey_right RALT W  &kp V                &x10_prscrn_sysreq
-&kp ESCAPE     &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SINGLE_QUOTE                                                                                    &kp SLASH     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
-&kp SEMICOLON  &kp P               &kp X               &kp J                &kp K                 &kp COMMA         &kp BSPC             &kp INSERT   &lower   &lower   &kp K_APPLICATION  &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp MINUS
-&magic LAYER_Magic 0     &kp Z               &x10_left           &x10_up              &kp LBKT                                &thumb_hold 1 SPACE  &key_repeat  &kp RET  &kp RET  &key_repeat        &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
+&kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                                                  &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
+&kp GRAVE             &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                                              &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerilde         &kp SCROLLLOCK
+&kp TAB               &kp B               &homey_left RALT Y  &kp O                &kp U                 &x10_paripe                                                                                         &x10_parblsh  &kp L                  &kp D                         &homey_right RALT W  &kp V                &x10_prscrn_sysreq
+&kp ESCAPE            &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SINGLE_QUOTE                                                                                    &kp SLASH     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
+&kp SEMICOLON         &kp P               &kp X               &kp J                &kp K                 &kp COMMA         &kp BSPC             &kp INSERT   &lower   &lower   &kp K_APPLICATION  &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp MINUS
+&magic LAYER_Magic 0  &kp Z               &x10_left           &x10_up              &kp LBKT                                &thumb_hold 1 SPACE  &key_repeat  &kp RET  &kp RET  &key_repeat        &kp SPACE                &kp RBKT               &x10_down                     &x10_right           &kp Q                &magic LAYER_Magic 0
             >;
         };
 
@@ -735,12 +739,12 @@
 
         layer_Navigation {
             bindings = <
-&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                         &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none            &none
-&trans        &none         &kp F12         &none           &kp F13          &none                                                    &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &none
-&trans        &kp F11       &none           &kp UP_ARROW    &none            &kp F14                                                  &none  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &none
-&trans        &kp F15       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F16                                                  &none  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
-&trans        &kp F17       &kp F18         &kp F19         &kp F20          &kp F21  &trans  &trans  &to 0   &to 0   &trans  &trans  &none  &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &trans
-&magic LAYER_EngrammerNO_Base 0    &kp F22       &trans          &trans          &kp F23                   &trans  &trans  &trans  &trans  &trans  &trans         &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &magic LAYER_EngrammerNO_Base 0
+&kp C_BRI_DN                     &kp C_BRI_UP  &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                         &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none            &none
+&trans                           &none         &kp F12         &none           &kp F13          &none                                                    &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &none
+&trans                           &kp F11       &mkp RCLK       &kp UP_ARROW    &mkp LCLK        &kp F14                                                  &none  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &none
+&trans                           &kp F15       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F16                                                  &none  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
+&trans                           &kp F17       &kp F18         &kp F19         &kp F20          &kp F21  &trans  &trans  &to 0   &to 0   &trans  &trans  &none  &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &trans
+&magic LAYER_EngrammerNO_Base 0  &kp F22       &trans          &trans          &kp F23                   &trans  &trans  &trans  &trans  &trans  &trans         &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &magic LAYER_EngrammerNO_Base 0
             >;
         };
 
