@@ -741,7 +741,7 @@
             bindings = <
 &kp C_BRI_DN                     &kp C_BRI_UP  &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                         &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none            &none
 &trans                           &none         &kp F12         &none           &kp F13          &none                                                    &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &none
-&trans                           &kp F11       &mkp RCLK       &kp UP_ARROW    &mkp LCLK        &kp F14                                                  &none  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &none
+&trans                           &kp F11       &none           &kp UP_ARROW    &none            &kp F14                                                  &none  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &none
 &trans                           &kp F15       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F16                                                  &none  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
 &trans                           &kp F17       &kp F18         &kp F19         &kp F20          &kp F21  &trans  &trans  &to 0   &to 0   &trans  &trans  &none  &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &trans
 &magic LAYER_EngrammerNO_Base 0  &kp F22       &trans          &trans          &kp F23                   &trans  &trans  &trans  &trans  &trans  &trans         &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &magic LAYER_EngrammerNO_Base 0
