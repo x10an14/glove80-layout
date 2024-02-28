@@ -597,9 +597,9 @@
 
         // Shift + NUMBER_0 = EQUAL
 
-        x10_zerilde: number_0_and_tilde {
+        x10_zerplus: number_0_and_plus {
             compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_0_AND_TILDE";
+            label = "x10_NUMBER_0_AND_PLUS";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_0>, <&kp TILDE>;
 
@@ -707,7 +707,7 @@
         layer_EngrammerNO_Base {
             bindings = <
 &kp F1                &kp F2              &kp F3              &kp F4               &kp F5                                                                                                                        &kp F6                 &kp F7                        &kp F8               &kp F9               &kp F10
-&kp GRAVE             &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                                    &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerilde         &kp SCROLLLOCK
+&kp GRAVE             &kp N1              &kp N2              &kp N3               &kp N4                &kp N5                                                                                    &kp NUMBER_6  &kp NUMBER_7           &kp N8                        &x10_ninqual         &x10_zerplus         &kp SCROLLLOCK
 &kp TAB               &kp B               &homey_left RALT Y  &kp O                &kp U                 &x10_paripe                                                                               &x10_parblsh  &kp L                  &kp D                         &homey_right RALT W  &kp V                &x10_prscrn_sysreq
 &kp ESCAPE            &homey_left LGUI H  &homey_left LALT I  &homey_left LCTRL E  &shift_left LSHIFT A  &kp SINGLE_QUOTE                                                                          &kp SLASH     &shift_right RSHIFT R  &homey_right RIGHT_CONTROL T  &homey_right LALT N  &homey_right RGUI S  &x10_cappy
 &kp SEMICOLON         &kp P               &kp X               &kp J                &kp K                 &kp COMMA         &kp BSPC   &kp INSERT   &lower   &lower   &kp K_APPLICATION  &kp DEL    &kp DOT       &kp F                  &kp M                         &kp C                &kp G                &kp MINUS
