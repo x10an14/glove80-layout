@@ -563,49 +563,9 @@
         //
         //////////////////////////////////////////////////////////////////////////
         // Shift + NUMBER_6 = AMPERSAND
-
-        x10_sixamp: number_6_and_ampersand {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_6_AND_AMPERSAND";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_6>, <&kp LS(NUMBER_7)>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         // Shift + NUMBER_7 = FORWARD_SLASH
-
-        x10_sevlash: number_7_and_forward_slash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_7_AND_FORWARD_SLASH";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_7>, <&kp FSLH>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         // Shift + NUMBER_9 = CARET
-
-        x10_ninqual: number_9_and_equal {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_9_AND_EQUAL";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_9>, <&kp EQUAL>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         // Shift + NUMBER_0 = EQUAL
-
-        x10_zerplus: number_0_and_plus {
-            compatible = "zmk,behavior-mod-morph";
-            label = "x10_NUMBER_0_AND_PLUS";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_0>, <&kp TILDE>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         // CapsWord - ported from Pascal Getreuer's extension for QMK
         // - https://zmk.dev/docs/behaviors/caps-word
         // - https://getreuer.info/posts/keyboards/caps-word/index.html
@@ -664,24 +624,6 @@
 
             #binding-cells = <0>;
             mods = <(MOD_RALT)>;
-        };
-
-        x10_paripe: x10_paripe {
-            compatible = "zmk,behavior-mod-morph";
-            label = "X10_PARIPE";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N9)>, <&kp LS(BACKSLASH)>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        x10_parblsh: x10_parblsh {
-            compatible = "zmk,behavior-mod-morph";
-            label = "X10_PARBLSH";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N0)>, <&kp BSLH>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         x10_prscrn_sysreq: x10_prscrn_sysreq {
