@@ -1,0 +1,53 @@
+# Oxeylyzer config tuned for tendonitis-aware layout design
+# Finger health hierarchy: middle > pinky > ring > thumb > index
+#
+# Key differences from upstream defaults:
+# - Index finger weights/limits reduced (most vulnerable)
+# - Thumb limits reduced (daily-life strain from phone/cooking)
+# - Thumbs still stronger than index (user preference)
+# - Scissors heavily penalized (diagonal/lateral finger movement)
+# - Stretches moderately penalized (less than scissors)
+# - Redirects/bad_redirects more heavily penalized
+
+language = "english"
+trigram_precision = 1000
+max_cores = 32
+
+[weights]
+sfbs = -7.0
+sfs = -1.0
+lateral_penalty = 1.5
+stretches = -0.6
+# scissors = -1.2  # not a configurable weight in oxeylyzer (computed metric)
+pinky_ring_bigrams = -0.3
+inrolls = 2.5
+outrolls = 2.4
+onehands = 0.9
+alternates = 0.4
+alternates_sfs = 0.1
+redirects = -4.0
+redirects_sfs = -5.0
+bad_redirects = -5.5
+bad_redirects_sfs = -6.5
+
+[weights.finger_weights]
+# higher = prefer placing keys there
+# middle fingers are the workhorses
+lp = 1.4
+lr = 3.6
+lm = 4.8
+li = 3.0
+lt = 3.5
+rt = 3.5
+ri = 3.0
+rm = 4.8
+rr = 3.6
+rp = 1.4
+
+[weights.max_finger_use]
+penalty = 0
+pinky = 9.0
+ring = 14.0
+middle = 20.0
+index = 13.0
+thumb = 15.0
