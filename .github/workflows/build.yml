@@ -20,7 +20,7 @@ jobs:
 
       # Actually reproducibly build this shit
       - name: Build Glove80 combined firmware
-        run: nom build
+        run: nix build -L --log-format internal-json
 
       # Release if pushed with tag!
       - name: Upload release of build artifacts
