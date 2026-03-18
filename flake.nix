@@ -15,7 +15,7 @@
         moergoPin = builtins.fromJSON (
           builtins.readFile "${inputs.moergo-zmk}/nix/pinned-nixpkgs.json"
         );
-        moergoNixpkgs = builtins.fetchTarball {
+        moergoNixpkgs = fetchTarball {
           inherit (moergoPin) url sha256;
         };
         pkgs = import moergoNixpkgs {localSystem = {inherit system;};};
@@ -37,8 +37,7 @@
       devShell = pkgs.mkShell {
         shellHook = ''
           # Linting
-          ${pkgs.deadnix}/bin/deadnix --fail --hidden &&
-            echo -e "\n\tThere's no dead nix code in your codebase, yay!\n"
+          ${pkgs.deadnix}/bin/deadnix --hidden
           ${pkgs.statix}/bin/statix check .
 
           # Required for pipx -> used to install keymap-drawer
@@ -58,6 +57,10 @@
       packages = {
         inherit glove80Firmware right_hand left_hand;
         default = glove80Firmware;
+      };
+
+      checks = {
+        inherit glove80Firmware right_hand left_hand;
       };
 
       formatter = pkgs.alejandra;
